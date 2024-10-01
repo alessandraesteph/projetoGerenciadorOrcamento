@@ -1,0 +1,51 @@
+/* global.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    color: #343a40; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  /*  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo de botões */
+.button {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Cor ao passar o mouse */
+}
+
+/* Estilo de links */
+a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+.centered-text {
+    text-align: center; /* Centraliza o texto */
+    margin: 20px 0; /* Espaçamento vertical */
+}

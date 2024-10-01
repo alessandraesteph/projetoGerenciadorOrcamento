@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  background-color: #007bff; /* Tom de azul */
+  padding: 15px 0; /* Espaçamento superior e inferior */
+}
+
+.navbar a {
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado */
+  padding: 10px 20px; /* Espaçamento em torno dos links */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Cor ao passar o mouse */
+}
